@@ -55,8 +55,8 @@ sudo apt -y install gawk
 
 # 2.2 Install autocompletation tool
 git clone --recursive --depth 1 --shallow-submodules https://github.com/akinomyoga/ble.sh.git
-make -C ble.sh
-source ble.sh/out/ble.sh
+make -C ble.sh install PREFIX=~/.local
+rm -R -f ble.sh
 
 # *************************************************************** #
 #                  3- Install OH MY BASH                          #
