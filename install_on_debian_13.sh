@@ -47,6 +47,7 @@ sudo apt -y install zsh
 sudo apt -y install tmux
 sudo apt -y install neovim
 sudo apt -y install curl
+sudo apt -y install wget
 sudo apt -y install git
 sudo apt -y install bat
 sudo apt -y install lsd
